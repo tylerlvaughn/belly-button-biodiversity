@@ -83,7 +83,7 @@ function getPlots(id) {
     
           // Filter Meta Data by ID
            var result = metadata.filter(meta => meta.id.toString() === id)[0];
-          // Create Variable to Select Demographic Black
+          // Create Variable to Select Demographic Block
            var demographicInfo = d3.select("#sample-metadata");
             
          // Clear Demographic Information
